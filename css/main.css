@@ -1,7 +1,61 @@
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  color: #000;
 }
 
-.font-jp {
+i {
   font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.nav a {
+  text-decoration: none;
+  border-bottom: #8bc9d9 2px solid;
+  color: #005e76;
+  padding-bottom: .3em;
+}
+
+.nav a:hover {
+  border-bottom: #005e76 2px solid;
+  color: #005e76;
+}
+
+header {
+  text-align: center;
+}
+
+.embed-garden {
+  padding-top: 66.6619%;
+}
+
+.btn-ghost {
+  color: #005e76;
+  border: #0084a6 2px solid;
+}
+
+.btn-ghost:hover {
+  color: #000;
+  border-color: #005e76;
+  background-color: #8bc9d9;
+}
+
+footer {
+  border-top: #e2e2e2 2px solid;
+  padding-top: 1rem;
+}
+
+.first-quote {
+  border-top: #e2e2e2 2px solid;
+  border-bottom: #e2e2e2 2px solid;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .header {
+    text-align: left;
+  }
+
+  .title {
+    margin-bottom: .5em;
+  }
+
 }
